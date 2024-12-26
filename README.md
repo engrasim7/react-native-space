@@ -5,7 +5,7 @@ To set up this React Native project on your local machine, please follow the ste
 
 Prerequisites: Ensure you have the following installed:
 
-Node.js (version 14.x or later) from here.
+Node.js version v22.12.0
 npm (Node package manager, bundled with Node.js).
 React Native CLI (Optional, if not using Expo) - Install globally using npm install -g react-native-cli.
 Xcode (for macOS users) from the Mac App Store if working with iOS.
@@ -19,18 +19,10 @@ git clone https://github.com/yourusername/your-project-name.git
 cd your-project-name
 Install Dependencies: Run the following in the project directory to install required dependencies:
 
-Using npm:
-bash
-Copy code
-npm install
-Or using yarn:
-bash
-Copy code
+using yarn:
 yarn install
 Set Up Environment Variables: Create a .env file in the project root and add necessary variables, like API keys or URLs. For example:
 
-bash
-Copy code
 API_URL=https://your-api.com
 GOOGLE_MAPS_API_KEY=your-google-maps-api-key
 Ensure the .env file is added to .gitignore.
